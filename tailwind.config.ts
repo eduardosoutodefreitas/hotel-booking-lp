@@ -12,7 +12,7 @@ const config = {
   theme: {
     container: {
       center: true,
-      padding: "2rem",
+      padding: "15px",
     },
     screens: {
       sm: "640px",
@@ -54,8 +54,8 @@ const config = {
     },
 
     backgroundImage: {
-      hero: "url:('assets/hero/bg.png')",
-      hero2: "url:('assets/hero/bg-2.png')",
+      hero: "url(/hero/bg.png)",
+      hero2: "url(/hero/bg-2.png)",
     },
   },
   plugins: [require("tailwindcss-animate")],
