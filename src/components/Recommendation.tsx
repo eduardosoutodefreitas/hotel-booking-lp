@@ -54,7 +54,7 @@ const Recommendation = () => {
       initial='hidden'
       whileInView='show'
       viewport={{
-        once: false,
+        once: true,
         amount: 0.4,
       }}
       variants={fadeIn({ delay: 0.2, direction: "up" })}

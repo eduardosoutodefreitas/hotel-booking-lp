@@ -17,7 +17,7 @@ const SearchBox = () => {
       whileInView={"show"}
       viewport={{
         amount: 0,
-        once: false,
+        once: true,
       }}
       className='w-full max-w-[488px] bg-white max-h-max flex flex-col border border-outline rounded-[20px] p-10'
     >

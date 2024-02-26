@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Recommendation from "@/components/Recommendation";
-import Image from "next/image";
+import Find from "../components/Find";
 
 export default function Home() {
   return (
@@ -14,6 +14,7 @@ export default function Home() {
       <Featured />
       <About />
       <Recommendation />
+      <Find />
       <Footer />
     </main>
   );
